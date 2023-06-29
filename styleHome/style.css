@@ -1,3 +1,89 @@
+.header{
+    width: 1132px; 
+    left: 49px; 
+    top: 31px; 
+    position: absolute;
+    background-color: black;
+}
+
+.logoHeader{
+    width: 211px; 
+    height: 65px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.menu{
+    color: white; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    line-height: 22.50px; 
+    word-wrap: break-word;
+    width: 795px; 
+    left: 337px; 
+    position: absolute; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 40px; 
+    display: inline-flex;
+     
+}
+
+.h1{
+    left: 303px; 
+    top: 879px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Wizard World; 
+    font-weight: 400; 
+    line-height: 50px; 
+    word-wrap: break-word;
+}
+
+.bemVindo{
+    width: 1440px; 
+    height: 1227.41px; 
+    left: 0px; 
+    top: 107px; 
+    position: absolute;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-bottom: 8px; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 50px; 
+    display: flex;
+    list-style: none; 
+    margin-left: auto;
+    font-family: DM Sans;
+  }
+
+  .nav-list__underline {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-bottom: 8px; 
+    border-bottom: 0.50px white solid; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: flex;
+        font-family: DM Sans;
+  }
+
+.logoCentral{
+    width: 488px; 
+    height: 161px; 
+    left: 476px; 
+    top: 962px; 
+    position: absolute;
+}
+
 .navBarFooter {
     width: 1440px; 
     height: 170px; 
@@ -7,7 +93,7 @@
 }
 
 .logoFooter{
-    width: 149.47px; 
+    width: 149px; 
     height: 49px; 
     left: 96px; 
     top: 0px; 
@@ -15,7 +101,7 @@
 }
 .footer{
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-family: DM Sans;
     font-weight: 500;
     line-height: 22.50px;
@@ -24,10 +110,35 @@
     padding-bottom: 8px; 
     justify-content: center; 
     align-items: flex-start; 
-    gap: 8px; 
+    gap: 40px; 
     display: flex;
 
 }
+
+.arabescoDireito{
+    width: 460px; 
+    height: 433px; 
+    left: 980px; 
+    top: 794px; 
+    position: absolute;
+}
+
+.arabescoEsquerdo{
+    width: 460px; 
+    height: 433px; 
+    left: 0px; 
+    top: 794px; 
+    position: absolute;
+}
+
+.bannerPrincipal{
+    width: 1440px; 
+    height: 790px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
 
 .direitosAutorais{
     color: #CBD5E1;
@@ -63,39 +174,43 @@
     font-family: Wizard World;
     font-weight: 400;
     text-transform: capitalize;
-    line-height: 27.88px;
+    line-height: 27px;
     letter-spacing: 2.75px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    width: 1098px; 
+    height: 446px; 
+    left: 159px; 
+    top: 3298px; 
+    position: absolute;
 }
 
-.tituloCasas{
-    color: white;
-    font-size: 35px;
-    font-family: Wizard World;
-    font-weight: 400;
-    line-height: 43.75px;
-    word-wrap: break-word
+.subCategorias__comunidade{
+    width: 349px; 
+    height: 446px; 
+    left: 748px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.subCategorias__lojas{
+    width: 349px; 
+    height: 446px; 
+    left: 374px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.subCategorias__restaurantes{
+    width: 349px; 
+    height: 446px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
 }
 
 ---
-.descritivoCasas{
-    color: white;
- font-size: 20px;
- font-family: DM Sans;
- font-weight: 400;
- line-height: 25px;
- word-wrap: break-word
-}
----
-.principaisMembros{
-        color: white;
-    font-size: 15px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 18.75px;
-    word-wrap: break-word
-}
----
+
+
 .categoriasTitulo{
 color: white;
  font-size: 40px;
@@ -113,17 +228,74 @@ color: white;
     line-height: 25px;
     word-wrap: break-word
 }
-.bem-vindo{
-    color: white;
-    font-size: 40px;
-    font-family: Wizard World;
-    font-weight: 400;
-    line-height: 50px;
-    word-wrap: break-word
-}
 
 .body{
     background-color: black;
     width: auto; 
     height: auto; 
+}
+
+.boxCasas{
+    width: 1211px; height: 633px; left: 114px; top: 2603px; position: absolute;
+}
+
+.tituloCasas{
+    color: white;
+    font-size: 35px;
+    font-family: Wizard World;
+    font-weight: 400;
+    line-height: 43px;
+    word-wrap: break-word
+}
+
+
+.descritivoCasas{
+    color: white;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word
+}
+.descritivoGrifinoria{
+    width: 478px; 
+    left: 22px; 
+    top: 129px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
+    line-height: 25px; 
+    word-wrap: break-word;
+}
+
+.grifinoria{
+    left: 22px; 
+    top: 73px; 
+    position: absolute; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Wizard World; 
+    font-weight: 400; 
+    line-height: 43.75px; 
+    word-wrap: break-word;
+
+}
+.principaisMembros{
+    color: white;
+    font-size: 15px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+    width: 1211px; height: 633px; left: 114px; top: 2603px; position: absolute;
+}
+
+.principaisMembros__grifinoria{
+    width: 478px; left: 24px; top: 273px; position: absolute;
+}
+
+.principaisMembros__lufalufa{
+    width: 478px; left: 22px; top: 577px; position: absolute; 
 }
