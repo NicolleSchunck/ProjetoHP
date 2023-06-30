@@ -54,8 +54,6 @@
     display: flex;
     list-style: none;
     padding-bottom: 8px; 
-    justify-content: center; 
-    align-items: flex-start; 
     gap: 50px; 
     display: flex;
     list-style: none; 
@@ -68,16 +66,14 @@
 
   .nav-list__underline {
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
     padding-bottom: 8px; 
     border-bottom: 0.50px white solid; 
     justify-content: center; 
     align-items: flex-start; 
     gap: 8px; 
-    display: flex;
-        font-family: DM Sans;
+    font-family: DM Sans;
   }
+
 
 .logoCentral{
     width: 488px; 
@@ -152,25 +148,6 @@
     word-wrap: break-word:
 }
 
-
-.personagens{
-    color: white;
-    font-size: 18px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 22.50px;
-    word-wrap: break-word;
-}
-
-.houseHogwarts{
-    color: white;
-    font-size: 40px;
-    font-family: Wizard World;
-    font-weight: 400;
-    line-height: 50px;
-    word-wrap: break-word
-}
-
 .subCategorias{
     color: white;
     font-size: 25px;
@@ -211,8 +188,6 @@
     position: absolute;
 }
 
----
-
 
 .categoriasTitulo{
 color: white;
@@ -251,6 +226,10 @@ color: white;
     word-wrap: break-word
 }
 
+.imgCasas{
+    width: 599px; height: 417px; left: 309px; top: 149px; position: absolute;
+}
+
 
 .descritivoCasas{
     color: white;
@@ -260,17 +239,15 @@ color: white;
     line-height: 25px;
     word-wrap: break-word
 }
-.descritivoGrifinoria{
-    width: 478px; 
-    left: 22px; 
-    top: 129px; 
+
+
+.boxGrifinoria{
+    width: 594px; 
+    height: 275px; 
+    left: 0px; 
+    top: 60px; 
     position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    line-height: 25px; 
-    word-wrap: break-word;
+    background:#7474742e;
 }
 
 .grifinoria{
@@ -281,24 +258,144 @@ color: white;
     font-size: 35px; 
     font-family: Wizard World; 
     font-weight: 400; 
-    line-height: 43.75px; 
     word-wrap: break-word;
 
 }
-.principaisMembros{
-    color: white;
-    font-size: 15px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 18px;
+
+.descritivoGrifinoria{
+    width: 478px; 
+    left: 22px; 
+    top: 129px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
     word-wrap: break-word;
-    width: 1211px; height: 633px; left: 114px; top: 2603px; position: absolute;
 }
 
 .principaisMembros__grifinoria{
-    width: 478px; left: 24px; top: 273px; position: absolute;
+    width: 478px; 
+    left: 24px; 
+    top: 273px; 
+    position: absolute;
+    color: white;
 }
+
+
+
+.boxSonserina{
+    width: 594px; 
+    height: 275px; 
+    left: 617px; 
+    top: 60px; 
+    position: absolute; 
+    background:#7474742e;
+}
+
+.sonserina{
+    left: 1012px; 
+    top: 73px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Wizard World; 
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+.descritivoSonserina{
+    width: 443px; 
+    left: 731px; 
+    top: 129px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 20px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.principaisMembros__sonserina{
+    width: 478px; left: 700px; top: 273px; 
+    position: absolute; text-align: right; 
+    color: white; font-size: 15px; font-family: DM Sans; 
+    font-weight: 400; line-height: 18.75px; word-wrap: break-word;
+}
+
+.boxCorvinal{
+    width: 594px; 
+    height: 275px; 
+    left: 617px; 
+    top: 358px; 
+    position: absolute;
+    background:#7474742e;
+}
+
+.corvinal{
+    left: 1012px; top: 380px; position: absolute; text-align: right; 
+    color: white; font-size: 35px; font-family: Wizard World; font-weight: 400; 
+    word-wrap: break-word;
+}
+
+
+.descritivoCorvinal{
+    width: 379px; left: 799px; top: 436px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: DM Sans; font-weight: 400; line-height: 25px; word-wrap: break-word;
+}
+
+.principaisMembros__corvinal{
+    width: 478px; left: 700px; top: 573px; text-align: right; 
+    color: white; font-size: 15px; font-family: DM Sans; 
+    font-weight: 400; word-wrap: break-word; position: absolute;
+}
+
+.lufalufa{
+    left: 31px; top: 380px; position: absolute; color: white; 
+    font-size: 35px; font-family: Wizard World; font-weight: 400; word-wrap: break-word;
+}
+
+.boxLufaLufa{
+    width: 594px; height: 275px; left: 0px; top: 358px; position: absolute; background:#7474742e;
+}
+
+.descritivoLufaLufa{
+    width: 462px; left: 22px; top: 436px; position: absolute; 
+    color: white; font-size: 20px; font-family: DM Sans; 
+    font-weight: 400; word-wrap: break-word;
+}
+
 
 .principaisMembros__lufalufa{
     width: 478px; left: 22px; top: 577px; position: absolute; 
+}
+
+.principaisMembros__lufalufa{
+    width: 478px; 
+    left: 22px; 
+    top: 577px;
+    color: white; font-size: 15px; font-family: DM Sans; font-weight: 400; 
+}
+
+.categoriaFilmes{
+    width: 1276px; height: 402px; left: 105px; top: 1275px; position: absolute;
+}
+.imgFilmes{
+    width: 530px; height: 300px; left: 746px; top: 51px; position: absolute;
+}
+
+.categoriaLivros{
+    width: 1259px; height: 402px; left: 90px; top: 1710px; position: absolute;
+}
+.imgLivros{
+    width: 530px; height: 300px; left: 0px; top: 51px; position: absolute;
+}
+
+.categoriaPersonagens{
+    width: 1249px; height: 402px; left: 105px; top: 2145px; position: absolute;
+}
+.imgPersonagens{
+    width: 538px; height: 300px; left: 711px; top: 51px; position: absolute;
 }
