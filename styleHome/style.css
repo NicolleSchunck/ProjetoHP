@@ -475,8 +475,3 @@ color: white;
     width: 234px; left: 55.89px; top: 404px; position: absolute; text-align: center; color: white; font-size: 25px; font-family: Wizard World; font-weight: 400; text-transform: capitalize; line-height: 27.88px; letter-spacing: 2.75px; word-wrap: break-word;
 }
 
-.container {  
-    display: grid;  
-    grid-template-columns: 100px 100px 100px;  
-    grid-template-rows: 50px 50px;  
-}
