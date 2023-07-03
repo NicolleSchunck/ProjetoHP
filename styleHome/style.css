@@ -28,6 +28,7 @@
     align-items: center; 
     gap: 40px; 
     display: inline-flex;
+    text-decoration: none !important;
      
 }
 
@@ -56,12 +57,10 @@
     padding-bottom: 8px; 
     gap: 50px; 
     display: flex;
-    list-style: none; 
     margin-left: auto;
     font-family: DM Sans;
     color: white;
-    text-decoration: none;
-    text-decoration-color: white;
+    text-decoration: none !important;
   }
 
   .nav-list__underline {
