@@ -131,11 +131,7 @@
 }
 
 .bannerPrincipal{
-    width: 1440px; 
-    height: 790px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
+    max-width: 100%;
 }
 
 
@@ -148,69 +144,9 @@
     word-wrap: break-word:
 }
 
-.subCategorias{
-    color: white;
-    font-size: 25px;
-    font-family: Wizard World;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 27px;
-    letter-spacing: 2.75px;
-    word-wrap: break-word;
-    width: 1098px; 
-    height: 446px; 
-    left: 159px; 
-    top: 3298px; 
-    position: absolute;
-}
-
-.subCategorias__comunidade{
-    width: 349px; 
-    height: 446px; 
-    left: 748px; 
-    top: 0px; 
-    position: absolute;
-}
-
-.subCategorias__lojas{
-    width: 349px; 
-    height: 446px; 
-    left: 374px; 
-    top: 0px; 
-    position: absolute;
-}
-
-.subCategorias__restaurantes{
-    width: 349px; 
-    height: 446px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
-}
-
-
-.categoriasTitulo{
-color: white;
- font-size: 40px;
- font-family: Wizard World;
- font-weight: 400;
- line-height: 50px;
- word-wrap: break-word
-}
-
-.categoriasDescritivo{
-        color: white;
-    font-size: 20px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 25px;
-    word-wrap: break-word
-}
-
 .body{
     background-color: black;
-    width: auto; 
-    height: auto; 
+    display: grid;  
 }
 
 .boxCasas{
@@ -398,4 +334,150 @@ color: white;
 }
 .imgPersonagens{
     width: 538px; height: 300px; left: 711px; top: 51px; position: absolute;
+}
+
+.boxFilmesPersonagens{
+    width: 1229px; 
+    height: 402px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(217, 217, 217, 0.08);
+}
+
+.boxLivros{
+    width: 1229px; height: 402px; left: 30px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.08);
+}
+
+
+.categoriasTitulo{
+color: white;
+ font-size: 40px;
+ font-family: Wizard World;
+ font-weight: 400;
+ line-height: 50px;
+ word-wrap: break-word
+}
+
+.filmes{
+    left: 70px; top: 58px; position: absolute; 
+    color: white; font-size: 40px; font-family: Wizard World; 
+    font-weight: 400; line-height: 50px; word-wrap: break-word;
+}
+
+.descritivoFilmes{
+    color: white;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    width: 656px; left: 70px; top: 129px; 
+    position: absolute;
+    text-align: justify;
+}
+
+.livros{
+    left: 1072px; top: 51px; position: absolute; 
+    color: white; font-size: 40px; font-family: Wizard World; 
+    font-weight: 400; line-height: 50px; word-wrap: break-word;
+}
+
+.descritivoLivros{
+        color: white;
+        font-size: 20px;
+        font-family: DM Sans;
+        font-weight: 400;
+        line-height: 25px;
+        word-wrap: break-word;
+        width: 656px; 
+        left: 547px;
+         top: 107px; 
+        position: absolute; 
+        text-align: justify; 
+}
+
+.personagens{
+    left: 55px; top: 70px; position: absolute; color: white; 
+    font-size: 40px; font-family: Wizard World; font-weight: 400; line-height: 50px; word-wrap: break-word;
+}
+
+.descritivoPersonagens{
+    width: 645px;
+    left: 55px; 
+    top: 132px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
+    line-height: 25px; 
+    word-wrap: break-word;
+    text-align: justify; 
+}
+.subCategorias__comunidade{
+    width: 349px; 
+    height: 446px; 
+    left: 748px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.subCategorias__lojas{
+    width: 349px; 
+    height: 446px; 
+    left: 374px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.subCategorias__restaurantes{
+    width: 349px; 
+    height: 446px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.subCategorias{
+    color: white;
+    font-size: 25px;
+    font-family: Wizard World;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 27px;
+    letter-spacing: 2.75px;
+    word-wrap: break-word;
+    width: 1098px; 
+    height: 446px; 
+    left: 159px; 
+    top: 3298px; 
+    position: absolute;
+}
+
+.subCategorias__titulos{
+    width: 284px; 
+    height: 56px; 
+    left: 32.43px; 
+    top: 390.32px; 
+    position: absolute; 
+    background: linear-gradient(90deg, #6D6766 0%, #090712 100%);
+}
+
+.comunidadesTitulo{
+   width: 224px; left: 63.78px; top: 402px; position: absolute; text-align: center; color: white; font-size: 28.29px; font-family: Wizard World; font-weight: 400; text-transform: capitalize; line-height: 31.54px; letter-spacing: 3.11px; word-wrap: break-word;
+}
+
+.restaurantesTitulo{
+    width: 231px; left: 60px; top: 408px; position: absolute; text-align: center; color: white; font-size: 25px; font-family: Wizard World; font-weight: 400; text-transform: capitalize; line-height: 27.88px; letter-spacing: 2.75px; word-wrap: break-word;
+}
+
+.lojaTitulo{
+    width: 234px; left: 55.89px; top: 404px; position: absolute; text-align: center; color: white; font-size: 25px; font-family: Wizard World; font-weight: 400; text-transform: capitalize; line-height: 27.88px; letter-spacing: 2.75px; word-wrap: break-word;
+}
+
+.container {  
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
 }
