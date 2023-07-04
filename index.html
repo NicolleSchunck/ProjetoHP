@@ -14,17 +14,17 @@
     <!-- Menu Header -->
     <div class="header">
       <img class="logoHeader" src="https://logodownload.org/wp-content/uploads/2017/07/harry-potter-logo-2.png" />
-    <nav class="nav-list--color" >
-        <ul class="menu">
-        <div class="nav-list__underline"><a href="index.html">Home</a></div>
+    <nav>
+        <ul>
         <div class="nav-list">
-            <li><a href="#">Personagens</a></li>
-            <li><a href="#">Filmes</a></li>
-            <li><a href="#">Livros</a></li>
-            <li><a href="#">Restaurantes</a></li>
-            <li><a href="#">Hospedagens</a></li>
-            <li><a href="#">Loja</a></li>
-            <li><a href="#">Comunidade</a></li>
+            <li><a class="noLink" href="#">Home</a></li>
+            <li><a class="noLink" href="#">Personagens</a></li>
+            <li><a class="noLink" href="#">Filmes</a></li>
+            <li><a class="noLink" href="#">Livros</a></li>
+            <li><a class="noLink" href="#">Restaurantes</a></li>
+            <li><a class="noLink" href="#">Hospedagens</a></li>
+            <li><a class="noLink" href="#">Loja</a></li>
+            <li><a class="noLink" href="#">Comunidade</a></li>
         </div>
         </ul>
     </nav>
@@ -34,7 +34,7 @@
 <body class="body">
     <div>
         <!-- seja bem vindo -->
-        <div class="bemVindo">
+        <div>
             <img class="bannerPrincipal" src="https://i.ibb.co/qdtyzVY/banner-Principal.png"/>
             <img class="arabescoEsquerdo" src="https://cdn-hogwartslegacy.warnerbrosgames.com/static/corner-left.png" alt="detalhes de arabesco esquerdo"/>
             <img class="arabescoDireito" src="https://cdn-hogwartslegacy.warnerbrosgames.com/static/corner-right.png"alt="detalhes de arabesco direito"/>
@@ -44,10 +44,10 @@
 
         <!-- categorias -->
         <div class="categoriaFilmes">
-            <div class="boxFilmesPersonagens"></div>
-            <img class="imgFilmes" src="https://i.ibb.co/0CxKsHd/banner-Filmes.png"/>
-            <div class="filmes">Filmes</div>
-            <div class="descritivoFilmes">
+            <div class="box"></div>
+            <img class="img" src="https://i.ibb.co/0CxKsHd/banner-Filmes.png"/>
+            <div class="title">Filmes</div>
+            <div class="descritivo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium condimentum massa pretium 
                     ullamcorper. Vivamus vitae placerat massa. Donec porttitor posuere nisi in porta. Nullam vel 
                     vehicula justo, sit amet facilisis lectus. Nam non igula nec enim placerat aliquet ut 
@@ -58,10 +58,10 @@
             </div>
         </div>
         <div class="categoriaLivros">
-            <div class="boxLivros"></div>
-            <img class="imgLivros" src="https://i.ibb.co/8YZcKwr/banner-Livros.png"/>
-            <div class="livros">Livros</div>
-            <div class="descritivoLivros">
+            <div class="box"></div>
+            <img class="img" src="https://i.ibb.co/8YZcKwr/banner-Livros.png"/>
+            <div class="title">Livros</div>
+            <div class="descritivo">
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium condimentum massa 
                     pretium ullamcorper. Vivamus vitae placerat massa. Donec porttitor posuere nisi in porta. 
                     Nullam vel vehicula justo, sit amet facilisis lectus. Nam non igula nec enim placerat 
@@ -72,10 +72,10 @@
             </div>
         </div>
         <div class="categoriaPersonagens">
-            <div class="boxFilmesPersonagens"></div>
-            <img class="imgPersonagens" src="https://i.ibb.co/n1SYFvr/banner-Personagens.png"/>
-            <div class="personagens">Personagens</div>
-            <div class="descritivoPersonagens">
+            <div class="box"></div>
+            <img class="img" src="https://i.ibb.co/n1SYFvr/banner-Personagens.png"/>
+            <div class="title">Personagens</div>
+            <div class="descritivo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium condimentum massa pretium 
                     ullamcorper. Vivamus vitae placerat massa. Donec porttitor posuere nisi in porta. Nullam vel 
                     vehicula justo, sit amet facilisis lectus. Nam non ligula nec enim placerat aliquet ut vitae 
@@ -87,31 +87,33 @@
         </div>
 
         <div class="boxCasas"> <!--Casas de Hogwarts-->
-            <div class="tituloCasas">Casas de Hogwarts</div>
-            <img class="imgCasas" src="https://i.ibb.co/K2CKZN9/casasHP.png"/> <!-- brasão das casas -->
+            <div class="title">Casas de Hogwarts</div>
+            <img class="img" src="https://i.ibb.co/K2CKZN9/casasHP.png"/> <!-- brasão das casas -->
 
-            <div class="boxGrifinoria"> <!-- box casa Grifnoria --> </div>
-            <div class="grifinoria">Grifinória</div>
-            <div class="descritivoGrifinoria">
-                <p>Lar dos bravos e cavalheiros. A Casa valoriza feitos de coragem e superação pessoal que costumam 
-                    ser <br>realizados por altruísmo. Seus estudantes tendem <br>a ser bastante aventureiros, mas se destacam,<br> 
-                    sobretudo, pela lealdade.</p>
-            </div>
-            <div class="principaisMembros__grifinoria">
-                <p>Alvo Dumbledore, Harry Potter e Minerva McGonagall são<br/>alguns dos membros mais conhecidos da Casa.</p>
-            </div>
+            <div class="grifinoria"> <!-- box casa Grifnoria --> 
+                <div class="title">Grifinória</div>
+                <div class="descritivo">
+                    <p>Lar dos bravos e cavalheiros. A Casa valoriza feitos de coragem e superação pessoal que costumam 
+                        ser <br>realizados por altruísmo. Seus estudantes tendem <br>a ser bastante aventureiros, mas se destacam,<br> 
+                        sobretudo, pela lealdade.</p>
+                </div>
+                <div class="membros">
+                    <p>Alvo Dumbledore, Harry Potter e Minerva McGonagall são<br/>alguns dos membros mais conhecidos da Casa.</p>
+                </div>
+             </div>
            
-            <div class="boxSonserina"><!-- box casa Sonserina --></div>
-            <div class="sonserina">Sonserina</div>
-            <div class="descritivoSonserina">
-                <p>A casa Sonserina têm como características, a ambição e a grandeza, por isso estão sempre se 
-                    dedicando a alcançar e expandir metas e se empenhando <br/>com inteligência em diversas áreas da magia.
-                </p>
-            </div>
-            <div class="principaisMembros__sonserina">
-                <p>Merlin, Tom Riddle, Draco Malfoy e Dolores Umbridge são
-                    <br/>alguns dos membros mais conhecidos da Casa.
-                </p>
+            <div class="sonserina"><!-- box casa Sonserina -->
+                <div class="title">Sonserina</div>
+                <div class="descritivo">
+                    <p>A casa Sonserina têm como características, a ambição e a grandeza, por isso estão sempre se 
+                        dedicando a alcançar e expandir metas e se empenhando <br/>com inteligência em diversas áreas da magia.
+                    </p>
+                </div>
+                <div class="membros">
+                    <p>Merlin, Tom Riddle, Draco Malfoy e Dolores Umbridge são
+                        <br/>alguns dos membros mais conhecidos da Casa.
+                    </p>
+                </div>
             </div>
 
             <div class="boxLufaLufa">  <!-- box casa Lufa Lufa --> </div>
@@ -128,37 +130,38 @@
                 </p>
             </div>
 
-            <div class="boxCorvinal"> <!-- box casa Corvinal --> </div>
-            <div class="corvinal">Corvinal</div>
-            <div class="descritivoCorvinal">
-                <p>Os bruxos pertencentes à Corvinal se destacam por sua exímia inteligência.
-                    São características principais a sabedoria, criatividade e personalidade única.
-                </p>
-            </div>
-            <div class="principaisMembros__corvinal">
-                <p>Luna Lovegood, Gilderoy Lockhart e Garrick Olivaras são
-                    <br/>alguns dos membros mais conhecidos da Casa.
-                </p>
+            <div class="corvinal"> <!-- box casa Corvinal --> 
+                <div class="title">Corvinal</div>
+                <div class="descritivo">
+                    <p>Os bruxos pertencentes à Corvinal se destacam por sua exímia inteligência.
+                        São características principais a sabedoria, criatividade e personalidade única.
+                    </p>
+                </div>
+                <div class="membros">
+                    <p>Luna Lovegood, Gilderoy Lockhart e Garrick Olivaras são
+                        <br/>alguns dos membros mais conhecidos da Casa.
+                    </p>
+                </div>
             </div>
         </div>
 
 
         <!-- Subcategorias -->
         <div class="subCategorias">
-            <div class="subCategorias__comunidade">
+            <div class="comunidade">
                 <img src="https://i.ibb.co/VBwXfB1/banner-Comunidade.png"/> 
-                <div class="subCategorias__titulos"></div>
-                <div class="comunidadesTitulo">Comunidade</div>
+                <div class="box"></div>
+                <div class="title">Comunidade</div>
             </div>
-            <div class="subCategorias__lojas">
+            <div class="lojas">
                 <img src="https://i.ibb.co/3TWMFLV/banner-Lojas.png"/>
-                <div class="subCategorias__titulos"></div>
-                <div class="lojaTitulo">Loja</div>
+                <div class="box"></div>
+                <div class="title">Loja</div>
             </div>
-            <div class="subCategorias__restaurantes">
+            <div class="restaurantes">
                 <img src="https://i.ibb.co/mRwdYVX/banner-Restaurantes.png"/>
-                <div class="subCategorias__titulos"></div>
-                <div class="restaurantesTitulo">Restaurantes</div>
+                <div class="box"></div>
+                <div class="title">Restaurantes</div>
             </div>
         </div>
 
