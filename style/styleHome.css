@@ -111,12 +111,13 @@ body{
     width: 1276px; height: 402px; left: 105px; top: 1275px; position: absolute;
 }
 .categoriaFilmes .img{
-    width: 530px; height: 300px; left: 746px; top: 51px; position: absolute;
+    width: 530px; 
+    height: 300px; 
+    left: 746px; 
+    top: 51px; 
+    position: absolute;
 }
 
-.categoriaFilmes .img:hover{
-    background-image: url("https://t.ctcdn.com.br/stxQ-oq7DDFG3Y-tNV1mrKicA-8=/1400x788/smart/i525540.jpeg");
-}
 .categoriaFilmes .title{
     left: 70px; top: 58px; position: absolute; 
     color: white; font-size: 40px; font-family: Wizard World; 
