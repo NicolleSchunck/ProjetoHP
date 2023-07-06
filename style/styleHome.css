@@ -76,7 +76,6 @@ li:first-child{
     left: 476px; 
     top: 1060px; 
     position: absolute;
-    animation-duration: ;
     animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
