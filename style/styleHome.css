@@ -91,12 +91,12 @@ li:first-child{
  }
  
 @keyframes aparecer {
-0% {
-  opacity: 0;
-}
-100% {
-  opacity: 1;
-}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -171,7 +171,7 @@ body{
     word-wrap: break-word;
     width: 656px; 
     left: 547px;
-     top: 107px; 
+    top: 107px; 
     position: absolute; 
     text-align: justify; 
 }
