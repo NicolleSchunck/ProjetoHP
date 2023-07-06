@@ -76,7 +76,29 @@ li:first-child{
     left: 476px; 
     top: 1060px; 
     position: absolute;
+    animation-duration: ;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    transition: all 3s;
 }
+
+.logoCentral:hover {
+    height: 180px; 
+    width: 600px;
+    justify-content: center;
+    left: 450px; 
+ }
+ 
+@keyframes aparecer {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
 
 body{
     background-color: black;
@@ -92,6 +114,10 @@ body{
 }
 .categoriaFilmes .img{
     width: 530px; height: 300px; left: 746px; top: 51px; position: absolute;
+}
+
+.categoriaFilmes .img:hover{
+    background-image: url("https://t.ctcdn.com.br/stxQ-oq7DDFG3Y-tNV1mrKicA-8=/1400x788/smart/i525540.jpeg");
 }
 .categoriaFilmes .title{
     left: 70px; top: 58px; position: absolute; 
@@ -363,18 +389,13 @@ body{
     font-weight: 400; word-wrap: break-word;
 }
 
-
-.principaisMembros__lufalufa{
-    width: 478px; left: 22px; top: 577px; position: absolute; 
-}
-
 .principaisMembros__lufalufa{
     width: 478px; 
     left: 22px; 
-    top: 577px;
+    top: 560px;
+    position: absolute; 
     color: white; font-size: 15px; font-family: DM Sans; font-weight: 400; 
 }
-
 
 /* --Sessão das Subcategorias Comunidades, Loja e Restaurantes */
 
@@ -385,10 +406,9 @@ body{
     font-weight: 400;
     text-transform: capitalize;
     line-height: 27px;
-    letter-spacing: 2.75px;
-    word-wrap: break-word;
-    width: 1098px; 
-    height: 446px; 
+    letter-spacing: 3px;
+    /*width: 1098px; 
+    height: 446px;*/
     left: 159px; 
     top: 3298px; 
     position: absolute;
@@ -400,7 +420,7 @@ body{
     left: 748px; 
     top: 0px; 
     position: absolute;
-}
+}   
 
 .subCategorias .lojas{
     width: 349px; 
@@ -421,10 +441,22 @@ body{
 .subCategorias .box{
     width: 284px; 
     height: 56px; 
-    left: 32.43px; 
-    top: 390.32px; 
+    left: 32px; 
+    top: 390px; 
     position: absolute; 
     background: linear-gradient(90deg, #6D6766 0%, #090712 100%);
+}
+
+.comunidade .box:hover{
+    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.lojas .box:hover{
+    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.restaurantes .box:hover{
+    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
 .subCategorias .title{
