@@ -265,7 +265,7 @@ body{
 
 .grifinoria .title{
     left: 22px; 
-    top: 15px; 
+    top: -10px;
     position: absolute; 
     color: white; 
     font-size: 35px; 
@@ -311,8 +311,8 @@ body{
 }
 
 .sonserina .title{
-    left: 400px; 
-    top: 15px; 
+    left: 400px;
+    top: -10px;; 
     position: absolute; 
     text-align: right; 
     color: white; 
@@ -320,9 +320,11 @@ body{
     font-family: Wizard World; 
     font-weight: 400;
     word-wrap: break-word;
-
 }
-
+.sonserina .title:hover{
+    font-size: 45px;
+    left: 350px;
+}
 .sonserina .descritivo{
     width: 443px; 
     left: 130px; 
@@ -361,11 +363,15 @@ body{
 
 .corvinal .title{
     left: 400px; 
-    top: 15px; position: absolute; text-align: right; 
+    top: -10px; position: absolute; text-align: right; 
     color: white; font-size: 35px; font-family: Wizard World; font-weight: 400; 
     word-wrap: break-word;
 }
 
+.corvinal .title:hover{
+    font-size: 45px;
+    left: 350px;
+}
 
 .corvinal .descritivo{
     width: 379px; left: 190px; top: 60px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: DM Sans; font-weight: 400; line-height: 25px; word-wrap: break-word;
@@ -378,24 +384,28 @@ body{
 }
 
 .lufalufa{
-    left: 31px; top: 380px; position: absolute; color: white; 
-    font-size: 35px; font-family: Wizard World; font-weight: 400; word-wrap: break-word;
-}
-
-.boxLufaLufa{
     width: 594px; height: 275px; left: 0px; top: 358px; position: absolute; background:#7474742e;
 }
 
-.descritivoLufaLufa{
-    width: 462px; left: 22px; top: 436px; position: absolute; 
+.lufalufa .title{
+    left: 22px; top: -10px; position: absolute; color: white; 
+    font-size: 35px; font-family: Wizard World; font-weight: 400; word-wrap: break-word;
+}
+
+.lufalufa .title:hover{
+    font-size: 45px;
+}
+
+.lufalufa .descritivo{
+    width: 462px; left: 22px; top: 60px; position: absolute; 
     color: white; font-size: 20px; font-family: DM Sans; 
     font-weight: 400; word-wrap: break-word;
 }
 
-.principaisMembros__lufalufa{
+.lufalufa .principaisMembros{
     width: 478px; 
     left: 22px; 
-    top: 560px;
+    top: 200px;
     position: absolute; 
     color: white; font-size: 15px; font-family: DM Sans; font-weight: 400; 
 }
