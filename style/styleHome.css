@@ -28,13 +28,13 @@
     line-height: 30px;
 }
 
-li:first-child{
-    border-bottom: 2px white solid;
-}
-
-.noLink{
+.nav-list a {
     text-decoration: none !important;
     color: white;
+}
+
+li:first-child{
+    border-bottom: 2px white solid;
 }
 
 .bannerPrincipal{
@@ -509,6 +509,11 @@ body{
     gap: 40px; 
     list-style: none;
     display: flex;
+}
+
+.footer a{
+    text-decoration: none !important;
+    color: white;
 }
 
 hr{
