@@ -120,7 +120,7 @@ body{
 }
 
 .categoriaFilmes .title{
-    left: 70px; top: 58px; position: absolute; 
+    left: 70px; top: 40px; position: absolute; 
     color: white; font-size: 40px; font-family: Wizard World; 
     font-weight: 400; line-height: 50px; word-wrap: break-word;
 }
@@ -157,7 +157,7 @@ body{
     width: 1229px; height: 402px; left: 30px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.08);
 }
 .categoriaLivros .title{
-    left: 1072px; top: 51px; position: absolute; 
+    left: 1072px; top: 20px; position: absolute; 
     color: white; font-size: 40px; font-family: Wizard World; 
     font-weight: 400; line-height: 50px; word-wrap: break-word;
 }
@@ -195,7 +195,7 @@ body{
 }
 
 .categoriaPersonagens .title{
-    left: 55px; top: 70px; position: absolute; color: white; 
+    left: 55px; top: 50px; position: absolute; color: white; 
     font-size: 40px; font-family: Wizard World; font-weight: 400; line-height: 50px; word-wrap: break-word;
 }
 
@@ -223,13 +223,16 @@ body{
     position: absolute;
 }
 
-.boxCasas .title{
+.boxCasas h2{
     color: white;
     font-size: 40px;
     font-family: Wizard World;
     font-weight: 400;
     line-height: 43px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: -40px;
+    position: relative;
 }
 
 .boxCasas .img{
