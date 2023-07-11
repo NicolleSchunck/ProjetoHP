@@ -1,537 +1,624 @@
-.header{
-    width: 1132px; 
-    left: 49px; 
-    top: 31px; 
-    position: absolute;
-    background-color: black;
+.header {
+  width: 1132px;
+  left: 49px;
+  top: 31px;
+  position: absolute;
+  background-color: black;
 }
 
-.logoHeader{
-    width: 211px; 
-    height: 65px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
+.logoHeader {
+  width: 211px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 
 .nav-list {
-    width: 795px; 
-    list-style: none;
-    padding-bottom: 8px; 
-    gap: 50px; 
-    display: flex;
-    margin-left: auto;
-    font-family: DM Sans;
-    font-size: 18px;
-    color: white;
-    justify-content: center; 
-    line-height: 30px;
+  width: 795px;
+  list-style: none;
+  padding-bottom: 8px;
+  gap: 50px;
+  display: flex;
+  margin-left: auto;
+  font-family: DM Sans;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  line-height: 30px;
 }
 
 .nav-list a {
-    text-decoration: none !important;
-    color: white;
+  text-decoration: none !important;
+  color: white;
 }
 
-li:first-child{
-    border-bottom: 2px white solid;
+li:first-child {
+  border-bottom: 2px white solid;
 }
 
-.bannerPrincipal{
-    max-width: 100%;
-    position: absolute;
-    top: 107px; 
+.bannerPrincipal {
+  max-width: 100%;
+  position: absolute;
+  top: 107px;
 }
 
-.arabescoDireito{
-    width: 460px; 
-    height: 433px; 
-    left: 980px; 
-    top: 900px; 
-    position: absolute;
+.arabescoDireito {
+  width: 460px;
+  height: 433px;
+  left: 980px;
+  top: 900px;
+  position: absolute;
 }
 
-.arabescoEsquerdo{
-    width: 460px; 
-    height: 433px; 
-    left: 0px; 
-    top: 900px; 
-    position: absolute;
+.arabescoEsquerdo {
+  width: 460px;
+  height: 433px;
+  left: 0px;
+  top: 900px;
+  position: absolute;
 }
 
-h1{
-    left: 330px; 
-    top: 950px; 
-    position: absolute; 
-    color: white; 
-    font-size: 40px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    line-height: 50px; 
+h1 {
+  left: 330px;
+  top: 950px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
 }
 
-.logoCentral{
-    width: 488px; 
-    height: 161px; 
-    left: 476px; 
-    top: 1060px; 
-    position: absolute;
-    animation-duration: 5s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-    transition: all 3s;
+.logoCentral {
+  width: 488px;
+  height: 161px;
+  left: 476px;
+  top: 1060px;
+  position: absolute;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  transition: all 3s;
 }
 
 .logoCentral:hover {
-    height: 180px; 
-    width: 600px;
-    justify-content: center;
-    left: 450px; 
- }
- 
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  height: 180px;
+  width: 600px;
+  justify-content: center;
+  left: 450px;
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-body{
-    background-color: black;
-    display: flex;
+body {
+  background-color: black;
+  display: flex;
 }
 
 /* --Sessão das Categorias Filmes, Livros e Personagens */
 
 /* Filmes */
 
-.categoriaFilmes{
-    width: 1276px; height: 402px; left: 105px; top: 1275px; position: absolute;
+.categoriaFilmes {
+  width: 1276px;
+  height: 402px;
+  left: 105px;
+  top: 1275px;
+  position: absolute;
 }
-.categoriaFilmes .img{
-    width: 530px; 
-    height: 300px; 
-    left: 746px; 
-    top: 51px; 
-    position: absolute;
-}
-
-.categoriaFilmes .title{
-    left: 70px; top: 40px; position: absolute; 
-    color: white; font-size: 40px; font-family: Wizard World; 
-    font-weight: 400; line-height: 50px; word-wrap: break-word;
-}
-.categoriaFilmes .box{
-    width: 1229px; 
-    height: 402px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: rgba(217, 217, 217, 0.08);
+.categoriaFilmes .img {
+  width: 530px;
+  height: 300px;
+  left: 746px;
+  top: 51px;
+  position: absolute;
 }
 
-.categoriaFilmes .descritivo{
-    color: white;
-    font-size: 20px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 25px;
-    word-wrap: break-word;
-    width: 656px; left: 70px; top: 129px; 
-    position: absolute;
-    text-align: justify;
+.categoriaFilmes .title {
+  left: 70px;
+  top: 40px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+.categoriaFilmes .box {
+  width: 1229px;
+  height: 402px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.08);
+}
+
+.categoriaFilmes .descritivo {
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+  width: 656px;
+  left: 70px;
+  top: 129px;
+  position: absolute;
+  text-align: justify;
 }
 
 /* Livros */
 
-.categoriaLivros{
-    width: 1259px; height: 402px; left: 90px; top: 1710px; position: absolute;
+.categoriaLivros {
+  width: 1259px;
+  height: 402px;
+  left: 90px;
+  top: 1710px;
+  position: absolute;
 }
-.categoriaLivros .img{
-    width: 530px; height: 300px; left: 0px; top: 51px; position: absolute;
+.categoriaLivros .img {
+  width: 530px;
+  height: 300px;
+  left: 0px;
+  top: 51px;
+  position: absolute;
 }
-.categoriaLivros .box{
-    width: 1229px; height: 402px; left: 30px; top: 0px; position: absolute; background: rgba(217, 217, 217, 0.08);
+.categoriaLivros .box {
+  width: 1229px;
+  height: 402px;
+  left: 30px;
+  top: 0px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.08);
 }
-.categoriaLivros .title{
-    left: 1072px; top: 20px; position: absolute; 
-    color: white; font-size: 40px; font-family: Wizard World; 
-    font-weight: 400; line-height: 50px; word-wrap: break-word;
+.categoriaLivros .title {
+  left: 1072px;
+  top: 20px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
 }
 
-.categoriaLivros .descritivo{
-    color: white;
-    font-size: 20px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 25px;
-    word-wrap: break-word;
-    width: 656px; 
-    left: 547px;
-    top: 107px; 
-    position: absolute; 
-    text-align: justify; 
+.categoriaLivros .descritivo {
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+  width: 656px;
+  left: 547px;
+  top: 107px;
+  position: absolute;
+  text-align: justify;
 }
 
 /* Personagens */
 
-.categoriaPersonagens{
-    width: 1249px; height: 402px; left: 105px; top: 2145px; position: absolute;
+.categoriaPersonagens {
+  width: 1249px;
+  height: 402px;
+  left: 105px;
+  top: 2145px;
+  position: absolute;
 }
-.categoriaPersonagens .img{
-    width: 538px; height: 300px; left: 711px; top: 51px; position: absolute;
-}
-
-.categoriaPersonagens .box{
-    width: 1229px; 
-    height: 402px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: rgba(217, 217, 217, 0.08);
-}
-
-.categoriaPersonagens .title{
-    left: 55px; top: 50px; position: absolute; color: white; 
-    font-size: 40px; font-family: Wizard World; font-weight: 400; line-height: 50px; word-wrap: break-word;
+.categoriaPersonagens .img {
+  width: 538px;
+  height: 300px;
+  left: 711px;
+  top: 51px;
+  position: absolute;
 }
 
-.categoriaPersonagens .descritivo{
-    width: 645px;
-    left: 55px; 
-    top: 132px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    line-height: 25px; 
-    word-wrap: break-word;
-    text-align: justify; 
+.categoriaPersonagens .box {
+  width: 1229px;
+  height: 402px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.08);
+}
+
+.categoriaPersonagens .title {
+  left: 55px;
+  top: 50px;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+.categoriaPersonagens .descritivo {
+  width: 645px;
+  left: 55px;
+  top: 132px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
 /* --Sessão das Casas de Hogwarts */
 
-.boxCasas{
-    width: 1211px; 
-    height: 633px; 
-    left: 114px; 
-    top: 2603px; 
-    position: absolute;
+.boxCasas {
+  width: 1211px;
+  height: 633px;
+  left: 114px;
+  top: 2603px;
+  position: absolute;
 }
 
-.boxCasas h2{
-    color: white;
-    font-size: 40px;
-    font-family: Wizard World;
-    font-weight: 400;
-    line-height: 43px;
-    display: flex;
-    justify-content: center;
-    top: -40px;
-    position: relative;
+.boxCasas h2 {
+  color: white;
+  font-size: 40px;
+  font-family: Wizard World;
+  font-weight: 400;
+  line-height: 43px;
+  display: flex;
+  justify-content: center;
+  top: -40px;
+  position: relative;
 }
 
-.boxCasas .img{
-    width: 599px; 
-    height: 417px; 
-    left: 309px; 
-    top: 149px; 
-    position: absolute;
+.boxCasas .img {
+  width: 599px;
+  height: 417px;
+  left: 309px;
+  top: 149px;
+  position: absolute;
 }
 
-
-.descritivoCasas{
-    color: white;
-    font-size: 20px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 25px;
-    word-wrap: break-word
+.descritivoCasas {
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
 }
 
-
-.grifinoria{
-    width: 594px; 
-    height: 275px; 
-    left: 0px; 
-    top: 60px; 
-    position: absolute; 
-    background:#7474742e;
+.grifinoria {
+  width: 594px;
+  height: 275px;
+  left: 0px;
+  top: 60px;
+  position: absolute;
+  background: #7474742e;
 }
 
-.grifinoria .title{
-    left: 22px; 
-    top: -10px;
-    position: absolute; 
-    color: white; 
-    font-size: 35px; 
-    font-family: Wizard World; 
-    font-weight: 400; 
-    word-wrap: break-word;
-
+.grifinoria .title {
+  left: 22px;
+  top: -10px;
+  position: absolute;
+  color: white;
+  font-size: 35px;
+  font-family: Wizard World;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.grifinoria .title:hover{
-    font-size: 45px;
+.grifinoria .title:hover {
+  font-size: 45px;
 }
 
-.grifinoria .descritivo{
-    width: 478px; 
-    left: 22px; 
-    top: 60px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    word-wrap: break-word;
+.grifinoria .descritivo {
+  width: 478px;
+  left: 22px;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.grifinoria .membros{
-    width: 478px; 
-    left: 24px; 
-    top: 200px; 
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    line-height: 19px; 
+.grifinoria .membros {
+  width: 478px;
+  left: 24px;
+  top: 200px;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  line-height: 19px;
 }
 
-.sonserina{
-    width: 594px; 
-    height: 275px; 
-    left: 617px; 
-    top: 60px; 
-    position: absolute; 
-    background:#7474742e;
+.sonserina {
+  width: 594px;
+  height: 275px;
+  left: 617px;
+  top: 60px;
+  position: absolute;
+  background: #7474742e;
 }
 
-.sonserina .title{
-    left: 400px;
-    top: -10px;; 
-    position: absolute; 
-    text-align: right; 
-    color: white; 
-    font-size: 35px; 
-    font-family: Wizard World; 
-    font-weight: 400;
-    word-wrap: break-word;
+.sonserina .title {
+  left: 400px;
+  top: -10px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 35px;
+  font-family: Wizard World;
+  font-weight: 400;
+  word-wrap: break-word;
 }
-.sonserina .title:hover{
-    font-size: 45px;
-    left: 350px;
+.sonserina .title:hover {
+  font-size: 45px;
+  left: 350px;
 }
-.sonserina .descritivo{
-    width: 443px; 
-    left: 130px; 
-    top: 60px; 
-    position: absolute; 
-    text-align: right; 
-    color: white; 
-    font-size: 20px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    word-wrap: break-word;
-}
-
-.sonserina .membros{
-    width: 478px; 
-    left: 95px; 
-    top: 200px; 
-    position: absolute; 
-    text-align: right; 
-    color: white; 
-    font-size: 15px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    line-height: 19px; 
-    word-wrap: break-word;
+.sonserina .descritivo {
+  width: 443px;
+  left: 130px;
+  top: 60px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.corvinal{
-    width: 594px; 
-    height: 275px; 
-    left: 617px; 
-    top: 358px; 
-    position: absolute;
-    background:#7474742e;
+.sonserina .membros {
+  width: 478px;
+  left: 95px;
+  top: 200px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 19px;
+  word-wrap: break-word;
 }
 
-.corvinal .title{
-    left: 400px; 
-    top: -10px; position: absolute; text-align: right; 
-    color: white; font-size: 35px; font-family: Wizard World; font-weight: 400; 
-    word-wrap: break-word;
+.corvinal {
+  width: 594px;
+  height: 275px;
+  left: 617px;
+  top: 358px;
+  position: absolute;
+  background: #7474742e;
 }
 
-.corvinal .title:hover{
-    font-size: 45px;
-    left: 350px;
+.corvinal .title {
+  left: 400px;
+  top: -10px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 35px;
+  font-family: Wizard World;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.corvinal .descritivo{
-    width: 379px; left: 190px; top: 60px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: DM Sans; font-weight: 400; line-height: 25px; word-wrap: break-word;
+.corvinal .title:hover {
+  font-size: 45px;
+  left: 350px;
 }
 
-.corvinal .membros{
-    width: 478px; left: 90px; top: 200px; text-align: right; 
-    color: white; font-size: 15px; font-family: DM Sans; 
-    font-weight: 400; word-wrap: break-word; position: absolute;
+.corvinal .descritivo {
+  width: 379px;
+  left: 190px;
+  top: 60px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
 }
 
-.lufalufa{
-    width: 594px; height: 275px; left: 0px; top: 358px; position: absolute; background:#7474742e;
+.corvinal .membros {
+  width: 478px;
+  left: 90px;
+  top: 200px;
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  position: absolute;
 }
 
-.lufalufa .title{
-    left: 22px; top: -10px; position: absolute; color: white; 
-    font-size: 35px; font-family: Wizard World; font-weight: 400; word-wrap: break-word;
+.lufalufa {
+  width: 594px;
+  height: 275px;
+  left: 0px;
+  top: 358px;
+  position: absolute;
+  background: #7474742e;
 }
 
-.lufalufa .title:hover{
-    font-size: 45px;
+.lufalufa .title {
+  left: 22px;
+  top: -10px;
+  position: absolute;
+  color: white;
+  font-size: 35px;
+  font-family: Wizard World;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 
-.lufalufa .descritivo{
-    width: 462px; left: 22px; top: 60px; position: absolute; 
-    color: white; font-size: 20px; font-family: DM Sans; 
-    font-weight: 400; word-wrap: break-word;
+.lufalufa .title:hover {
+  font-size: 45px;
 }
 
-.lufalufa .principaisMembros{
-    width: 478px; 
-    left: 22px; 
-    top: 200px;
-    position: absolute; 
-    color: white; font-size: 15px; font-family: DM Sans; font-weight: 400; 
+.lufalufa .descritivo {
+  width: 462px;
+  left: 22px;
+  top: 60px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.lufalufa .principaisMembros {
+  width: 478px;
+  left: 22px;
+  top: 200px;
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 400;
 }
 
 /* --Sessão das Subcategorias Comunidades, Loja e Restaurantes */
 
-.subCategorias{
-    color: white;
-    font-size: 25px;
-    font-family: Wizard World;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 27px;
-    letter-spacing: 3px;
-    /*width: 1098px; 
+.subCategorias {
+  color: white;
+  font-size: 25px;
+  font-family: Wizard World;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 27px;
+  letter-spacing: 3px;
+  /*width: 1098px; 
     height: 446px;*/
-    left: 159px; 
-    top: 3298px; 
-    position: absolute;
+  left: 159px;
+  top: 3298px;
+  position: absolute;
 }
 
-.subCategorias .comunidade{
-    width: 349px; 
-    height: 446px; 
-    left: 748px; 
-    top: 0px; 
-    position: absolute;
-}   
-
-.subCategorias .lojas{
-    width: 349px; 
-    height: 446px; 
-    left: 374px; 
-    top: 0px; 
-    position: absolute;
+.subCategorias .comunidade {
+  width: 349px;
+  height: 446px;
+  left: 748px;
+  top: 0px;
+  position: absolute;
 }
 
-.subCategorias .restaurantes{
-    width: 349px; 
-    height: 446px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute;
+.subCategorias .lojas {
+  width: 349px;
+  height: 446px;
+  left: 374px;
+  top: 0px;
+  position: absolute;
 }
 
-.subCategorias .box{
-    width: 284px; 
-    height: 56px; 
-    left: 32px; 
-    top: 390px; 
-    position: absolute; 
-    background: linear-gradient(90deg, #6D6766 0%, #090712 100%);
+.subCategorias .restaurantes {
+  width: 349px;
+  height: 446px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 
-.comunidade .box:hover{
-    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+.subCategorias .box {
+  width: 284px;
+  height: 56px;
+  left: 32px;
+  top: 390px;
+  position: absolute;
+  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
 }
 
-.lojas .box:hover{
-    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+.comunidade .box:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
-.restaurantes .box:hover{
-    background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+.lojas .box:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
-.subCategorias .title{
-   width: 224px; 
-   left: 63.78px; 
-   top: 402px; 
-   position: absolute; 
-   text-align: center; 
-   color: white; 
-   font-family: Wizard World; 
-   line-height: 33px; 
+.restaurantes .box:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.subCategorias .title {
+  width: 224px;
+  left: 63.78px;
+  top: 402px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: Wizard World;
+  line-height: 33px;
+}
+
+.subCategorias .title :hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
 .navBarFooter {
-    width: 1440px; 
-    left: 0px; 
-    top: 3827px; 
-    position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 3827px;
+  position: absolute;
 }
 
-.logoFooter{
-    width: 149px; 
-    height: 49px; 
-    left: 96px; 
-    top: 0px; 
-    position: absolute;
+.logoFooter {
+  width: 149px;
+  height: 49px;
+  left: 96px;
+  top: 0px;
+  position: absolute;
 }
-.footer{
-    font-size: 15px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 22.50px;
-    padding-top: 30px;
-    padding-bottom: 8px; 
-    justify-content: center; 
-    align-items: flex-start; 
-    gap: 40px; 
-    list-style: none;
-    display: flex;
-}
-
-.footer a{
-    text-decoration: none !important;
-    color: white;
+.footer {
+  font-size: 15px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 22.5px;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+  display: flex;
 }
 
-hr{
+.footer a {
+  text-decoration: none !important;
+  color: white;
+}
+
+hr {
   justify-content: center;
   width: 80%;
-  margin-top: 20px
-
+  margin-top: 20px;
 }
 .copyright {
-    background: black;
-    margin-top: 30px;
-    margin-bottom: 20px;
+  background: black;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-  
+
 .copyright p {
-    color: white;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 19px;
-    text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: center;
 }
