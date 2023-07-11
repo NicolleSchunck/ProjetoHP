@@ -108,11 +108,12 @@ body {
 /* Filmes */
 
 .categoriaFilmes {
-  width: 1276px;
+  width: 1229px;
   height: 402px;
-  left: 105px;
+  left: 120px;
   top: 1275px;
   position: absolute;
+  background: rgba(217, 217, 217, 0.08);
 }
 .categoriaFilmes .img {
   width: 530px;
@@ -133,14 +134,6 @@ body {
   line-height: 50px;
   word-wrap: break-word;
 }
-.categoriaFilmes .box {
-  width: 1229px;
-  height: 402px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: rgba(217, 217, 217, 0.08);
-}
 
 .categoriaFilmes .descritivo {
   color: white;
@@ -159,27 +152,22 @@ body {
 /* Livros */
 
 .categoriaLivros {
-  width: 1259px;
+  width: 1229px;
   height: 402px;
-  left: 90px;
+  left: 120px;
   top: 1710px;
   position: absolute;
+  background: rgba(217, 217, 217, 0.08);
+
 }
 .categoriaLivros .img {
   width: 530px;
   height: 300px;
-  left: 0px;
+  left: -22px;
   top: 51px;
   position: absolute;
 }
-.categoriaLivros .box {
-  width: 1229px;
-  height: 402px;
-  left: 30px;
-  top: 0px;
-  position: absolute;
-  background: rgba(217, 217, 217, 0.08);
-}
+
 .categoriaLivros .title {
   left: 1072px;
   top: 20px;
@@ -209,11 +197,13 @@ body {
 /* Personagens */
 
 .categoriaPersonagens {
-  width: 1249px;
+  width: 1229px;
   height: 402px;
-  left: 105px;
+  left: 120px;
   top: 2145px;
   position: absolute;
+  background: rgba(217, 217, 217, 0.08);
+
 }
 .categoriaPersonagens .img {
   width: 538px;
