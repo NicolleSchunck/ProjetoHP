@@ -525,36 +525,49 @@ body {
   position: absolute;
 }
 
-.subCategorias .box {
+.comunidade .title{
   width: 284px;
-  height: 56px;
   left: 32px;
   top: 390px;
   position: absolute;
   background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
-}
-
-.comunidade .box:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.lojas .box:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.restaurantes .box:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.subCategorias .title {
-  width: 224px;
-  left: 63.78px;
-  top: 402px;
-  position: absolute;
   text-align: center;
-  color: white;
-  font-family: Wizard World;
-  line-height: 33px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.restaurantes .title{
+  width: 284px;
+  left: 32px;
+  top: 390px;
+  position: absolute;
+  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.lojas .title{
+  width: 284px;
+  left: 32px;
+  top: 390px;
+  position: absolute;
+  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.comunidade .title:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.lojas .title:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.restaurantes .title:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
 .subCategorias .title :hover {
