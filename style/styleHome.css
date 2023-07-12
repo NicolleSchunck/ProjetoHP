@@ -1,39 +1,43 @@
 .header {
-  width: 1132px;
+  width: 1440px;
   left: 49px;
   top: 31px;
-  position: absolute;
+  /*position: absolute;*/
   background-color: black;
+  display: flex;
+
 }
 
-.logoHeader {
+.header__logo {
   width: 211px;
   height: 65px;
   left: 0px;
   top: 0px;
   position: absolute;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
-.nav-list {
-  width: 795px;
+.header__nav-list {
   list-style: none;
   padding-bottom: 8px;
   gap: 50px;
   display: flex;
-  margin-left: auto;
   font-family: DM Sans;
   font-size: 18px;
   color: white;
   justify-content: center;
   line-height: 30px;
+  padding-left: 300px;
+  padding-top: 10px;
 }
 
-.nav-list a {
-  text-decoration: none !important;
+.header__nav-list a {
+  text-decoration: none;
   color: white;
 }
 
-li:first-child {
+.header__nav-list li:first-child {
   border-bottom: 2px white solid;
 }
 
@@ -41,6 +45,7 @@ li:first-child {
   max-width: 100%;
   position: absolute;
   top: 107px;
+  right: 4px;
 }
 
 .arabescoDireito {
@@ -115,7 +120,7 @@ body {
   position: absolute;
   background: rgba(217, 217, 217, 0.08);
 }
-.categoriaFilmes .img {
+.categoriaFilmes__img {
   width: 530px;
   height: 300px;
   left: 746px;
@@ -123,7 +128,7 @@ body {
   position: absolute;
 }
 
-.categoriaFilmes .title {
+.categoriaFilmes__title {
   left: 70px;
   top: 40px;
   position: absolute;
@@ -135,7 +140,7 @@ body {
   word-wrap: break-word;
 }
 
-.categoriaFilmes .descritivo {
+.categoriaFilmes__descritivo {
   color: white;
   font-size: 20px;
   font-family: DM Sans;
@@ -160,7 +165,7 @@ body {
   background: rgba(217, 217, 217, 0.08);
 
 }
-.categoriaLivros .img {
+.categoriaLivros__img {
   width: 530px;
   height: 300px;
   left: -22px;
@@ -168,7 +173,7 @@ body {
   position: absolute;
 }
 
-.categoriaLivros .title {
+.categoriaLivros__title {
   left: 1060px;
   top: 20px;
   position: absolute;
@@ -180,7 +185,7 @@ body {
   word-wrap: break-word;
 }
 
-.categoriaLivros .descritivo {
+.categoriaLivros__descritivo {
   color: white;
   font-size: 20px;
   font-family: DM Sans;
@@ -205,7 +210,7 @@ body {
   background: rgba(217, 217, 217, 0.08);
 
 }
-.categoriaPersonagens .img {
+.categoriaPersonagens__img {
   width: 538px;
   height: 300px;
   left: 711px;
@@ -213,7 +218,7 @@ body {
   position: absolute;
 }
 
-.categoriaPersonagens .box {
+.categoriaPersonagens__box {
   width: 1229px;
   height: 402px;
   left: 0px;
@@ -222,7 +227,7 @@ body {
   background: rgba(217, 217, 217, 0.08);
 }
 
-.categoriaPersonagens .title {
+.categoriaPersonagens__title {
   left: 55px;
   top: 50px;
   position: absolute;
@@ -234,7 +239,7 @@ body {
   word-wrap: break-word;
 }
 
-.categoriaPersonagens .descritivo {
+.categoriaPersonagens__descritivo {
   width: 640px;
   left: 55px;
   top: 132px;
@@ -270,7 +275,7 @@ body {
   position: relative;
 }
 
-.boxCasas .img {
+.boxCasas__img {
   width: 599px;
   height: 417px;
   left: 309px;
@@ -278,6 +283,7 @@ body {
   position: absolute;
 }
 
+/*
 .descritivoCasas {
   color: white;
   font-size: 20px;
@@ -285,7 +291,7 @@ body {
   font-weight: 400;
   line-height: 25px;
   word-wrap: break-word;
-}
+}*/
 
 .grifinoria {
   width: 594px;
@@ -296,7 +302,7 @@ body {
   background: #7474742e;
 }
 
-.grifinoria .title {
+.grifinoria__title {
   left: 22px;
   top: -10px;
   position: absolute;
@@ -307,11 +313,11 @@ body {
   word-wrap: break-word;
 }
 
-.grifinoria .title:hover {
+.grifinoria__title:hover {
   font-size: 45px;
 }
 
-.grifinoria .descritivo {
+.grifinoria__descritivo {
   width: 478px;
   left: 22px;
   top: 60px;
@@ -323,7 +329,7 @@ body {
   word-wrap: break-word;
 }
 
-.grifinoria .membros {
+.grifinoria__membros {
   width: 478px;
   left: 24px;
   top: 200px;
@@ -342,7 +348,7 @@ body {
   background: #7474742e;
 }
 
-.sonserina .title {
+.sonserina__title {
   left: 400px;
   top: -10px;
   position: absolute;
@@ -353,11 +359,11 @@ body {
   font-weight: 400;
   word-wrap: break-word;
 }
-.sonserina .title:hover {
+.sonserina__title:hover {
   font-size: 45px;
   left: 350px;
 }
-.sonserina .descritivo {
+.sonserina__descritivo {
   width: 443px;
   left: 130px;
   top: 60px;
@@ -370,7 +376,7 @@ body {
   word-wrap: break-word;
 }
 
-.sonserina .membros {
+.sonserina__membros {
   width: 478px;
   left: 95px;
   top: 200px;
@@ -393,7 +399,7 @@ body {
   background: #7474742e;
 }
 
-.corvinal .title {
+.corvinal__title {
   left: 400px;
   top: -10px;
   position: absolute;
@@ -405,12 +411,12 @@ body {
   word-wrap: break-word;
 }
 
-.corvinal .title:hover {
+.corvinal__title:hover {
   font-size: 45px;
   left: 350px;
 }
 
-.corvinal .descritivo {
+.corvinal__descritivo {
   width: 379px;
   left: 190px;
   top: 60px;
@@ -424,7 +430,7 @@ body {
   word-wrap: break-word;
 }
 
-.corvinal .membros {
+.corvinal__membros {
   width: 478px;
   left: 90px;
   top: 200px;
@@ -446,7 +452,7 @@ body {
   background: #7474742e;
 }
 
-.lufalufa .title {
+.lufalufa__title {
   left: 22px;
   top: -10px;
   position: absolute;
@@ -457,11 +463,11 @@ body {
   word-wrap: break-word;
 }
 
-.lufalufa .title:hover {
+.lufalufa__title:hover {
   font-size: 45px;
 }
 
-.lufalufa .descritivo {
+.lufalufa__descritivo {
   width: 462px;
   left: 22px;
   top: 60px;
@@ -473,7 +479,7 @@ body {
   word-wrap: break-word;
 }
 
-.lufalufa .principaisMembros {
+.lufalufa__principaisMembros {
   width: 478px;
   left: 22px;
   top: 200px;
@@ -501,7 +507,7 @@ body {
   position: absolute;
 }
 
-.subCategorias .comunidade {
+.subCategorias__comunidade {
   width: 349px;
   height: 446px;
   left: 748px;
@@ -509,7 +515,22 @@ body {
   position: absolute;
 }
 
-.subCategorias .lojas {
+.subCategorias__comunidade-title{
+  width: 284px;
+  left: 32px;
+  top: 390px;
+  position: absolute;
+  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subCategorias__comunidade-title:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.subCategorias__lojas {
   width: 349px;
   height: 446px;
   left: 374px;
@@ -517,7 +538,22 @@ body {
   position: absolute;
 }
 
-.subCategorias .restaurantes {
+.subCategorias__lojas--title{
+  width: 284px;
+  left: 32px;
+  top: 390px;
+  position: absolute;
+  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subCategorias__lojas--title:hover {
+  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
+}
+
+.subCategorias__restaurantes {
   width: 349px;
   height: 446px;
   left: 0px;
@@ -525,7 +561,7 @@ body {
   position: absolute;
 }
 
-.comunidade .title{
+.subCategorias__restaurantes--title{
   width: 284px;
   left: 32px;
   top: 390px;
@@ -536,41 +572,7 @@ body {
   padding-bottom: 15px;
 }
 
-.restaurantes .title{
-  width: 284px;
-  left: 32px;
-  top: 390px;
-  position: absolute;
-  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.lojas .title{
-  width: 284px;
-  left: 32px;
-  top: 390px;
-  position: absolute;
-  background: linear-gradient(90deg, #6d6766 0%, #090712 100%);
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.comunidade .title:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.lojas .title:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.restaurantes .title:hover {
-  background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
-}
-
-.subCategorias .title :hover {
+.subCategorias__restaurantes--title:hover {
   background: linear-gradient(90deg, #ecebeb 0%, #646368 100%);
 }
 
@@ -581,14 +583,14 @@ body {
   position: absolute;
 }
 
-.logoFooter {
+.navBarFooter__logo {
   width: 149px;
   height: 49px;
   left: 96px;
   top: 0px;
   position: absolute;
 }
-.footer {
+.navBarFooter__nav {
   font-size: 15px;
   font-family: DM Sans;
   font-weight: 500;
@@ -602,7 +604,7 @@ body {
   display: flex;
 }
 
-.footer a {
+.navBarFooter__nav a {
   text-decoration: none !important;
   color: white;
 }
@@ -612,13 +614,13 @@ hr {
   width: 80%;
   margin-top: 20px;
 }
-.copyright {
+.navBarFooter__copyright {
   background: black;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.copyright p {
+.navBarFooter__copyright p {
   color: white;
   font-size: 12px;
   font-weight: 300;
