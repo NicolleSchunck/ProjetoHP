@@ -2,7 +2,6 @@
   width: 1440px;
   left: 49px;
   top: 31px;
-  /*position: absolute;*/
   background-color: black;
   display: flex;
 
@@ -13,7 +12,6 @@
   height: 65px;
   left: 0px;
   top: 0px;
-  position: absolute;
   padding-left: 50px;
   padding-top: 20px;
 }
@@ -28,7 +26,6 @@
   color: white;
   justify-content: center;
   line-height: 30px;
-  padding-left: 300px;
   padding-top: 10px;
 }
 
@@ -42,7 +39,6 @@
 }
 
 .bannerPrincipal {
-  max-width: 100%;
   position: absolute;
   top: 107px;
   right: 4px;
