@@ -38,6 +38,10 @@
   border-bottom: 2px white solid;
 }
 
+.container {
+  display: flex;
+}
+
 .bannerPrincipal {
   position: absolute;
   top: 107px;
