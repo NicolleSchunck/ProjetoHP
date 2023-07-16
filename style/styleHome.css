@@ -262,6 +262,44 @@ body {
 
 /* --Sessão das Casas de Hogwarts */
 
+.boxCasas{
+    display: grid;
+    grid-template-columns: 594px 594px;
+    grid-template-rows: repeat(2, 275px);
+    text-align: center; 
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas: 
+    "grifinoria sonserina "
+    "lufalufa corvinal";
+}
+
+.grifinoria{
+    grid-area: grifinoria;
+    background: #7474742e;
+    position: relative;
+    text-align: left;
+}
+
+.sonserina{
+    grid-area: sonserina;
+    background: #7474742e;
+    position: relative;
+}
+
+.lufalufa{
+    grid-area: lufalufa;
+    background: #7474742e;
+    position: relative;
+    text-align: left;
+}
+
+.corvinal{
+    grid-area: corvinal;
+    background: #7474742e;
+    position: relative;
+}
+
 h2 {
   color: white;
   font-size: 40px;
@@ -271,6 +309,7 @@ h2 {
   text-align: center;
 }
 
+/*
 .boxCasas {
   width: 1440px;
   height: 600px;
@@ -279,7 +318,8 @@ h2 {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-}
+}*/
+
 .boxCasas > div {
   width: 594px;
   height: 275px;
@@ -289,14 +329,15 @@ h2 {
   position: relative;
   width: 599px;
   height: 417px;
-  top: -526px;
+  top: -486px;
   left: 414px;
 }
 
+/*
 .grifinoria {
   background: #7474742e;
   position: relative;
-}
+}*/
 
 .grifinoria__title {
   left: 22px;
@@ -335,10 +376,11 @@ h2 {
   line-height: 19px;
 }
 
+/*
 .sonserina {
   background: #7474742e;
   position: relative;
-}
+}*/
 
 .sonserina__title {
   left: 400px;
@@ -382,10 +424,11 @@ h2 {
   word-wrap: break-word;
 }
 
+/*
 .corvinal {
   background: #7474742e;
   position: relative;
-}
+}*/
 
 .corvinal__title {
   left: 400px;
@@ -431,10 +474,11 @@ h2 {
   position: absolute;
 }
 
+/*
 .lufalufa {
   background: #7474742e;
   position: relative;
-}
+}*/
 
 .lufalufa__title {
   left: 22px;
