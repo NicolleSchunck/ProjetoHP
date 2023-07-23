@@ -1,3 +1,4 @@
+/*
 .header {
   width: 1440px;
   left: 49px;
@@ -7,20 +8,45 @@
 }
 
 .header__logo {
-  width: 211px;
-  height: 65px;
-  left: 0px;
-  top: 0px;
-  padding: 20px 10px 15px 50px;
+  width: 270px;
+  height: 115px;
+  padding: 30px 10px 20px 50px;
 }
 
+*/
+
+.container {
+  color: black;
+}
+
+.navbar-brand{
+  height: 70px;
+  padding: 20px 50px;
+}
+
+.nav-item a {
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.navbar-nav {
+  gap: 20px;
+}
+
+.navbar-nav li:first-child {
+  border-bottom: 2px white solid;
+}
+
+/*
 header nav {
   display: flex;
 }
 
+
 .header__nav-list {
   list-style: none;
-  /*padding-bottom: 8px;*/
   gap: 50px;
   display: flex;
   font-family: DM Sans;
@@ -28,7 +54,7 @@ header nav {
   color: white;
   justify-content: center;
   line-height: 30px;
-  padding-top: 10px;
+  padding-top: 45px;
 }
 
 .header__nav-list a {
@@ -39,31 +65,33 @@ header nav {
 .header__nav-list li:first-child {
   border-bottom: 2px white solid;
 }
+*/
 
-.container {
+.containerPrincipal {
   display: flex;
   flex-wrap: wrap;
+  background-color: black;
 }
 
-.container__bannerPrincipal {
+.containerPrincipal__bannerPrincipal {
   /*position: absolute;*/
 }
 
-.container__arabescoDireito {
+.containerPrincipal__arabescoDireito {
   width: 460px;
   height: 433px;
   left: 518px;
   position: relative;
 }
 
-.container__arabescoEsquerdo {
+.containerPrincipal__arabescoEsquerdo {
   width: 460px;
   height: 433px;
   left: 0px;
   position: relative;
 }
 
-.container__h1 {
+.containerPrincipal__h1 {
   left: 330px;
   top: 950px;
   position: absolute;
@@ -74,7 +102,7 @@ header nav {
   line-height: 50px;
 }
 
-.container__logoCentral {
+.containerPrincipal__logoCentral {
   width: 488px;
   height: 161px;
   left: 476px;
@@ -86,7 +114,7 @@ header nav {
   transition: all 3s;
 }
 
-.container__logoCentral:hover {
+.containerPrincipal__logoCentral:hover {
   height: 180px;
   width: 600px;
   justify-content: center;
@@ -102,9 +130,11 @@ header nav {
   }
 }
 
-body {
+.body {
   background-color: black;
 }
+
+
 
 /* --Sessão das Categorias Filmes, Livros e Personagens */
 
@@ -262,6 +292,14 @@ body {
 
 /* --Sessão das Casas de Hogwarts */
 
+.casasHogwarts {
+  color: white;
+  font-family: Wizard World;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+
 .boxCasas{
     display: grid;
     grid-template-columns: 594px 594px;
@@ -330,7 +368,7 @@ h2 {
   width: 599px;
   height: 417px;
   top: -486px;
-  left: 414px;
+  left: 423px;
 }
 
 /*
@@ -341,7 +379,7 @@ h2 {
 
 .grifinoria__title {
   left: 22px;
-  top: -10px;
+  top: 25px;
   position: absolute;
   color: white;
   font-size: 35px;
@@ -357,23 +395,25 @@ h2 {
 .grifinoria__descritivo {
   width: 478px;
   left: 22px;
-  top: 60px;
+  top: 90px;
   position: absolute;
   color: white;
   font-size: 20px;
   font-family: DM Sans;
   font-weight: 400;
+  line-height: 22px;
   word-wrap: break-word;
 }
 
 .grifinoria__membros {
   width: 478px;
   left: 24px;
-  top: 200px;
+  top: 225px;
   position: absolute;
   color: white;
   font-size: 15px;
   line-height: 19px;
+  font-family: DM Sans;
 }
 
 /*
@@ -384,7 +424,7 @@ h2 {
 
 .sonserina__title {
   left: 400px;
-  top: -10px;
+  top: 25px;
   position: absolute;
   text-align: right;
   color: white;
@@ -400,7 +440,7 @@ h2 {
 .sonserina__descritivo {
   width: 443px;
   left: 130px;
-  top: 60px;
+  top: 90px;
   position: absolute;
   text-align: right;
   color: white;
@@ -408,12 +448,13 @@ h2 {
   font-family: DM Sans;
   font-weight: 400;
   word-wrap: break-word;
+  line-height: 22px;
 }
 
 .sonserina__membros {
   width: 478px;
   left: 95px;
-  top: 200px;
+  top: 225px;
   position: absolute;
   text-align: right;
   color: white;
@@ -432,7 +473,7 @@ h2 {
 
 .corvinal__title {
   left: 400px;
-  top: -10px;
+  top: 25px;
   position: absolute;
   text-align: right;
   color: white;
@@ -450,7 +491,7 @@ h2 {
 .corvinal__descritivo {
   width: 379px;
   left: 190px;
-  top: 60px;
+  top: 90px;
   position: absolute;
   text-align: right;
   color: white;
@@ -459,12 +500,14 @@ h2 {
   font-weight: 400;
   line-height: 25px;
   word-wrap: break-word;
+  line-height: 22px;
+
 }
 
 .corvinal__membros {
   width: 478px;
   left: 90px;
-  top: 200px;
+  top: 225px;
   text-align: right;
   color: white;
   font-size: 15px;
@@ -482,7 +525,7 @@ h2 {
 
 .lufalufa__title {
   left: 22px;
-  top: -10px;
+  top: 25px;
   position: absolute;
   color: white;
   font-size: 35px;
@@ -498,19 +541,21 @@ h2 {
 .lufalufa__descritivo {
   width: 462px;
   left: 22px;
-  top: 60px;
+  top: 90px;
   position: absolute;
   color: white;
   font-size: 20px;
   font-family: DM Sans;
   font-weight: 400;
   word-wrap: break-word;
+  line-height: 22px;
+
 }
 
 .lufalufa__principaisMembros {
   width: 478px;
   left: 22px;
-  top: 200px;
+  top: 225px;
   position: absolute;
   color: white;
   font-size: 15px;
@@ -609,6 +654,7 @@ h2 {
   left: 0px;
   top: 3827px;
   position: absolute;
+  background-color: black;
 }
 
 .navBarFooter__logo {
@@ -619,7 +665,7 @@ h2 {
   position: absolute;
 }
 .navBarFooter__nav {
-  font-size: 15px;
+  font-size: 16px;
   font-family: DM Sans;
   font-weight: 500;
   line-height: 22.5px;
@@ -641,6 +687,7 @@ hr {
   justify-content: center;
   width: 80%;
   margin-top: 20px;
+  background: white;
 }
 .navBarFooter__copyright {
   background: black;
@@ -650,8 +697,9 @@ hr {
 
 .navBarFooter__copyright p {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 19px;
   text-align: center;
+  font-family: DM Sans;
 }
