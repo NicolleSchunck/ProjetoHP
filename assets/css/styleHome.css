@@ -110,12 +110,13 @@ header nav {
 
 .containerPrincipal__bannerPrincipal {
   /*position: absolute;*/
+  width: 100%;
 }
 
 .containerPrincipal__arabescoDireito {
   width: 460px;
   height: 433px;
-  left: 518px;
+  left: 428px;
   position: relative;
 }
 
@@ -172,7 +173,7 @@ header nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-left: 100px;
+  padding-left: 4%;
   gap: 20px;
 }
 
@@ -361,12 +362,17 @@ h2{
   height: 275px;
 }
 
+.boxCasas-imgbox{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .boxCasas__img {
   position: relative;
   width: 599px;
   height: 417px;
   top: -486px;
-  left: 29%;
 }
 
 /*
@@ -579,27 +585,19 @@ h2{
 /* --Sessão das Subcategorias Comunidades, Loja e Restaurantes */
 
 .subCategorias {
-  width: 1100px;
+  display: grid;
+  grid-template-areas:
+    "restaurantes lojas comunidade";
+  grid-template-columns: auto;
+  justify-content: center;
+  width: 20%;
   height: 460px;
   color: white;
   font-size: 25px;
   font-family: Wizard World;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 27px;
   letter-spacing: 3px;
-  left: 12%;
-  top: 3340px;
-  position: absolute;
-}
-
-.subCategorias div{
-  display: grid;
-  grid-template-areas:
-    "grifinoria sonserina "
-    "lufalufa corvinal";
-  grid-template-columns: auto;
-  justify-content: center;
+  top: -350px;
+  position: relative;
 }
 
 .subCategorias__comunidade {
@@ -608,6 +606,7 @@ h2{
   left: 748px;
   top: 0px;
   position: absolute;
+  grid-area: comunidade;
 }
 
 .subCategorias__comunidade-title {
@@ -631,6 +630,7 @@ h2{
   left: 374px;
   top: 0px;
   position: absolute;
+  grid-area: lojas;
 }
 
 .subCategorias__lojas--title {
@@ -654,6 +654,7 @@ h2{
   left: 0px;
   top: 0px;
   position: absolute;
+  grid-area: restaurantes;
 }
 
 .subCategorias__restaurantes--title {
@@ -686,6 +687,7 @@ h2{
   top: 0px;
   position: absolute;
 }
+
 
 .navBarFooter__nav {
   font-size: 16px;

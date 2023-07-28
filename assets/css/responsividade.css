@@ -216,16 +216,33 @@
 
 }
 
+/*--- Para telas Grandes--*/
 @media screen and (min-width: 1600px) {
 
   .body,
-  .navBarFooter,
-  .navBarFooter__logo,
-  .containerPrincipal__h1,
-  .containerPrincipal__logoCentral {
-    padding-left: 10%;
+  .categorias {
+    justify-content: center;
+  }
+  .containerPrincipal {
+    justify-content: space-between;
   }
 
+  .containerPrincipal__bannerPrincipal{
+    width: 100%;
+  }
+
+  .containerPrincipal__arabescoDireito {
+    left: 0px;
+  }
+
+  .containerPrincipal__h1{
+    justify-content: center;
+  }
+
+  .casasHogwarts{
+    padding-left:0px;
+  }
+  
   /* box com grid*/
   .boxCasas {
     display: grid;
@@ -237,28 +254,13 @@
     grid-template-areas:
       "grifinoria sonserina "
       "lufalufa corvinal";
-    padding-left: 9%;
   }
 
-  .boxCasas__img{
-    left: 45.5%;
-    top: 2800px;
-    position: absolute;
+  .boxCasas-imgbox{
+    width: 100%;
   }
 
-  .casasHogwarts{
-    padding-left: 33%;
-  }
-
-  .subCategorias,
-  .subCategorias__comunidade,
-  .subCategorias__lojas,
-  .subCategorias__restaurantes {
+  .subCategorias {
     display: flex;
-    position: relative;
-    gap: 20px;
-    left: 7%;
-    top: 20px;
-  }
 
 }
