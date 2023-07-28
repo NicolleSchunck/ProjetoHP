@@ -1,4 +1,62 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+.body {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: black;
+}
+
+.nav-bar {
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.nav-logo {
+  height: 70px;
+  padding: 20px 50px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+.nav-item a {
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.nav-item a:hover {
+  color: gray;
+}
+
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li:first-child {
+  border-bottom: 2px white solid;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 40px;
+}
+
+/* -- Header antigo
 .header {
   width: 1440px;
   left: 49px;
@@ -14,30 +72,6 @@
 }
 
 */
-
-.container {
-  color: black;
-}
-
-.navbar-brand{
-  height: 70px;
-  padding: 20px 50px;
-}
-
-.nav-item a {
-  color: white;
-  font-family: DM Sans;
-  font-size: 18px;
-  justify-content: center;
-}
-
-.navbar-nav {
-  gap: 20px;
-}
-
-.navbar-nav li:first-child {
-  border-bottom: 2px white solid;
-}
 
 /*
 header nav {
@@ -65,7 +99,7 @@ header nav {
 .header__nav-list li:first-child {
   border-bottom: 2px white solid;
 }
-*/
+--------- */
 
 .containerPrincipal {
   display: flex;
@@ -125,16 +159,11 @@ header nav {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
-
-.body {
-  background-color: black;
-}
-
-
 
 /* --Sessão das Categorias Filmes, Livros e Personagens */
 
@@ -144,6 +173,11 @@ header nav {
   flex-wrap: wrap;
   padding-left: 100px;
   gap: 20px;
+}
+
+.categorias a:hover {
+  color: #646368;
+
 }
 
 /* Filmes */
@@ -157,6 +191,7 @@ header nav {
   position: relative;
   background: rgba(217, 217, 217, 0.08);
 }
+
 .categoriaFilmes__img {
   width: 530px;
   height: 300px;
@@ -202,6 +237,7 @@ header nav {
   position: relative;
   background: rgba(217, 217, 217, 0.08);
 }
+
 .categoriaLivros__img {
   width: 530px;
   height: 300px;
@@ -247,21 +283,13 @@ header nav {
   position: relative;
   background: rgba(217, 217, 217, 0.08);
 }
+
 .categoriaPersonagens__img {
   width: 538px;
   height: 300px;
   left: 711px;
   top: 51px;
   position: absolute;
-}
-
-.categoriaPersonagens__box {
-  width: 1229px;
-  height: 402px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: rgba(217, 217, 217, 0.08);
 }
 
 .categoriaPersonagens__title {
@@ -295,56 +323,49 @@ header nav {
 .casasHogwarts {
   color: white;
   font-family: Wizard World;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 40px;
-}
-
-.boxCasas{
-    display: grid;
-    grid-template-columns: 594px 594px;
-    grid-template-rows: repeat(2, 275px);
-    text-align: center; 
-    justify-content: center;
-    gap: 10px;
-    grid-template-areas: 
-    "grifinoria sonserina "
-    "lufalufa corvinal";
-}
-
-.grifinoria{
-    grid-area: grifinoria;
-    background: #7474742e;
-    position: relative;
-    text-align: left;
-}
-
-.sonserina{
-    grid-area: sonserina;
-    background: #7474742e;
-    position: relative;
-}
-
-.lufalufa{
-    grid-area: lufalufa;
-    background: #7474742e;
-    position: relative;
-    text-align: left;
-}
-
-.corvinal{
-    grid-area: corvinal;
-    background: #7474742e;
-    position: relative;
-}
-
-h2 {
-  color: white;
-  font-size: 40px;
-  font-family: Wizard World;
+  font-size: 35px;
   font-weight: 400;
   line-height: 43px;
+  padding-left: 40%;
+}
+
+h2{
   text-align: center;
+  display: flex;
+}
+/* box com grid
+.boxCasas {
+  display: grid;
+  grid-template-columns: 594px 594px;
+  grid-template-rows: repeat(2, 275px);
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  grid-template-areas:
+    "grifinoria sonserina "
+    "lufalufa corvinal";
+}*/
+
+/* box com display flex */
+
+.boxCasas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.boxCasas>div {
+  width: 594px;
+  height: 275px;
+}
+
+.boxCasas__img {
+  position: relative;
+  width: 599px;
+  height: 417px;
+  top: -486px;
+  left: 29%;
 }
 
 /*
@@ -358,28 +379,16 @@ h2 {
   align-content: center;
 }*/
 
-.boxCasas > div {
-  width: 594px;
-  height: 275px;
-}
-
-.boxCasas__img {
-  position: relative;
-  width: 599px;
-  height: 417px;
-  top: -486px;
-  left: 423px;
-}
-
-/*
 .grifinoria {
+  grid-area: grifinoria;
   background: #7474742e;
   position: relative;
-}*/
+  text-align: left;
+}
 
 .grifinoria__title {
   left: 22px;
-  top: 25px;
+  top: 0px;
   position: absolute;
   color: white;
   font-size: 35px;
@@ -395,7 +404,7 @@ h2 {
 .grifinoria__descritivo {
   width: 478px;
   left: 22px;
-  top: 90px;
+  top: 65px;
   position: absolute;
   color: white;
   font-size: 20px;
@@ -408,7 +417,7 @@ h2 {
 .grifinoria__membros {
   width: 478px;
   left: 24px;
-  top: 225px;
+  top: 200px;
   position: absolute;
   color: white;
   font-size: 15px;
@@ -416,15 +425,15 @@ h2 {
   font-family: DM Sans;
 }
 
-/*
 .sonserina {
+  grid-area: sonserina;
   background: #7474742e;
   position: relative;
-}*/
+}
 
 .sonserina__title {
   left: 400px;
-  top: 25px;
+  top: 0px;
   position: absolute;
   text-align: right;
   color: white;
@@ -433,14 +442,16 @@ h2 {
   font-weight: 400;
   word-wrap: break-word;
 }
+
 .sonserina__title:hover {
   font-size: 45px;
   left: 350px;
 }
+
 .sonserina__descritivo {
   width: 443px;
   left: 130px;
-  top: 90px;
+  top: 65px;
   position: absolute;
   text-align: right;
   color: white;
@@ -454,7 +465,7 @@ h2 {
 .sonserina__membros {
   width: 478px;
   left: 95px;
-  top: 225px;
+  top: 200px;
   position: absolute;
   text-align: right;
   color: white;
@@ -465,15 +476,15 @@ h2 {
   word-wrap: break-word;
 }
 
-/*
 .corvinal {
+  grid-area: corvinal;
   background: #7474742e;
   position: relative;
-}*/
+}
 
 .corvinal__title {
   left: 400px;
-  top: 25px;
+  top: 0px;
   position: absolute;
   text-align: right;
   color: white;
@@ -491,7 +502,7 @@ h2 {
 .corvinal__descritivo {
   width: 379px;
   left: 190px;
-  top: 90px;
+  top: 65px;
   position: absolute;
   text-align: right;
   color: white;
@@ -507,7 +518,7 @@ h2 {
 .corvinal__membros {
   width: 478px;
   left: 90px;
-  top: 225px;
+  top: 200px;
   text-align: right;
   color: white;
   font-size: 15px;
@@ -517,15 +528,16 @@ h2 {
   position: absolute;
 }
 
-/*
 .lufalufa {
+  grid-area: lufalufa;
   background: #7474742e;
   position: relative;
-}*/
+  text-align: left;
+}
 
 .lufalufa__title {
   left: 22px;
-  top: 25px;
+  top: 0px;
   position: absolute;
   color: white;
   font-size: 35px;
@@ -541,7 +553,7 @@ h2 {
 .lufalufa__descritivo {
   width: 462px;
   left: 22px;
-  top: 90px;
+  top: 65px;
   position: absolute;
   color: white;
   font-size: 20px;
@@ -555,7 +567,7 @@ h2 {
 .lufalufa__principaisMembros {
   width: 478px;
   left: 22px;
-  top: 225px;
+  top: 200px;
   position: absolute;
   color: white;
   font-size: 15px;
@@ -576,7 +588,7 @@ h2 {
   /*width: 1098px; 
     height: 446px;*/
   left: 159px;
-  top: 3298px;
+  top: 3340px;
   position: absolute;
 }
 
@@ -664,6 +676,7 @@ h2 {
   top: 0px;
   position: absolute;
 }
+
 .navBarFooter__nav {
   font-size: 16px;
   font-family: DM Sans;
@@ -683,12 +696,17 @@ h2 {
   color: white;
 }
 
+.navBarFooter__nav a:hover {
+  color: gray;
+}
+
 hr {
   justify-content: center;
   width: 80%;
   margin-top: 20px;
   background: white;
 }
+
 .navBarFooter__copyright {
   background: black;
   margin-top: 30px;
@@ -703,3 +721,4 @@ hr {
   text-align: center;
   font-family: DM Sans;
 }
+
