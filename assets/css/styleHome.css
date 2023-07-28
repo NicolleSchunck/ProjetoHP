@@ -578,6 +578,8 @@ h2{
 /* --Sessão das Subcategorias Comunidades, Loja e Restaurantes */
 
 .subCategorias {
+  width: 1100px;
+  height: 460px;
   color: white;
   font-size: 25px;
   font-family: Wizard World;
@@ -585,11 +587,18 @@ h2{
   text-transform: capitalize;
   line-height: 27px;
   letter-spacing: 3px;
-  /*width: 1098px; 
-    height: 446px;*/
-  left: 159px;
+  left: 12%;
   top: 3340px;
   position: absolute;
+}
+
+.subCategorias div{
+  display: grid;
+  grid-template-areas:
+    "grifinoria sonserina "
+    "lufalufa corvinal";
+  grid-template-columns: auto;
+  justify-content: center;
 }
 
 .subCategorias__comunidade {

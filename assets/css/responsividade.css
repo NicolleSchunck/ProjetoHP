@@ -218,8 +218,11 @@
 
 @media screen and (min-width: 1600px) {
 
-  .categorias,
-  .containerPrincipal  {
+  .body,
+  .navBarFooter,
+  .navBarFooter__logo,
+  .containerPrincipal__h1,
+  .containerPrincipal__logoCentral {
     padding-left: 20%;
   }
 
@@ -234,6 +237,18 @@
     grid-template-areas:
       "grifinoria sonserina "
       "lufalufa corvinal";
-    padding-left: 20%;
+    padding-left: 8%;
   }
+
+  .subCategorias,
+  .subCategorias__comunidade,
+  .subCategorias__lojas,
+  .subCategorias__restaurantes {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    left: 7%;
+    top: -170px;
+  }
+
 }
