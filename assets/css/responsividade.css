@@ -217,14 +217,10 @@
 }
 
 /*--- Para telas Grandes--*/
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
 
-  .body,
-  .categorias {
+  .body {
     justify-content: center;
-  }
-  .containerPrincipal {
-    justify-content: space-between;
   }
 
   .containerPrincipal__bannerPrincipal{
@@ -235,12 +231,22 @@
     left: 0px;
   }
 
-  .containerPrincipal__h1{
+  .containerPrincipal__h1 {
     justify-content: center;
+    top: 120%;
+    display: flex;
+    padding-left: 60px;
+  }
+
+  .containerPrincipal__logoCentral{
+    top: 1200px;
+    display: flex;
+    padding-left: 60px;
   }
 
   .casasHogwarts{
-    padding-left:0px;
+    display: flex;
+    padding-left:8%;
   }
   
   /* box com grid*/
@@ -256,11 +262,31 @@
       "lufalufa corvinal";
   }
 
+  .categorias{
+    padding-left: 0;
+    display: grid;
+    justify-content: space-between;
+    gap: 10px;
+    grid-template-columns: 1229px;
+    grid-template-areas:
+    "filmes"
+    "livros"
+    "personagens";
+  }
+
   .boxCasas-imgbox{
     width: 100%;
   }
 
   .subCategorias {
     display: flex;
+    left: -368px;
+  }
+
+  .navBarFooter{
+    width: 1600px;
+    justify-content: center;
+    top: 3885px;
+  }
 
 }

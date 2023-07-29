@@ -106,17 +106,19 @@ header nav {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
+  justify-content: space-between;
+
 }
 
 .containerPrincipal__bannerPrincipal {
   /*position: absolute;*/
   width: 100%;
+  justify-content: space-between;
 }
 
 .containerPrincipal__arabescoDireito {
   width: 460px;
   height: 433px;
-  left: 428px;
   position: relative;
 }
 
@@ -185,6 +187,7 @@ header nav {
 /* Filmes */
 
 .categoriaFilmes {
+  grid-area: filmes;
   width: 1229px;
   height: 402px;
   /*left: 120px;
@@ -238,6 +241,7 @@ header nav {
   position: absolute;*/
   position: relative;
   background: rgba(217, 217, 217, 0.08);
+  grid-area: livros;
 }
 
 .categoriaLivros__img {
@@ -277,6 +281,7 @@ header nav {
 /* Personagens */
 
 .categoriaPersonagens {
+  grid-area: personagens;
   width: 1229px;
   height: 402px;
   /*left: 120px;
@@ -673,7 +678,7 @@ h2{
 }
 
 .navBarFooter {
-  width: 1440px;
+  width: 1350px;
   left: 0px;
   top: 3827px;
   position: absolute;
