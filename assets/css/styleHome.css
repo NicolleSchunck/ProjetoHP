@@ -124,7 +124,7 @@ header nav {
 }
 
 .containerPrincipal__bannerPrincipal {
-  width: auto;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
 }
@@ -607,7 +607,8 @@ header nav {
 
 .subCategorias {
   display: grid;
-  width: 700px;
+  width: 600px;
+  justify-content: space-around;
   height: 460px;
   color: white;
   font-size: 25px;
@@ -703,9 +704,9 @@ header nav {
 
 .navBarFooter {
   width: 1350px;
-  left: 0px;
-  top: 3840px;
-  position: absolute;
+  left: 7%;
+  top: 160px;
+  position: relative;
   background-color: black;
 }
 

@@ -213,12 +213,13 @@
   .container-fluid{
     justify-content: center !important;
   }
-  .navBarFooter,
-  .navBarFooter__logo,
-  .containerPrincipal,
-  .containerPrincipal__h1,
-  .containerPrincipal__logoCentral {
-    padding-left: 10%;
+
+  .containerPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+  
   }
 
   .containerPrincipal__bannerPrincipal{
@@ -267,6 +268,8 @@
     display: grid;
     position: absolute;
     left: 7%;
+    top:3410px;
+    justify-content: center;
   }
 
   }
