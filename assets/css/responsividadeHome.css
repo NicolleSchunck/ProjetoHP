@@ -1,10 +1,3 @@
-/*.nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: #fff;
-    font-weight: 400;
-}*/
-
 
 .mobile-menu-icon {
   display: none;
@@ -15,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav-bar {
+  /*.nav-bar {
     padding: 1.5rem 4rem;
   }
 
@@ -47,10 +40,10 @@
 
   .open {
     display: block;
-  }
+  }*/
 
-  .nav-logo {
-    height: 45px;
+  .navbar-logo {
+    height: 100px;
   }
 
   .containerPrincipal__bannerPrincipal {
@@ -216,11 +209,24 @@
 
 }
 
+<<<<<<< HEAD:assets/css/responsividadeHome.css
 /*--- Para telas Grandes--*/
 @media screen and (min-width: 1500px) {
 
   .body {
     justify-content: center;
+=======
+@media screen and (min-width: 1600px) {
+  .container-fluid{
+    justify-content: center !important;
+  }
+  .navBarFooter,
+  .navBarFooter__logo,
+  .containerPrincipal,
+  .containerPrincipal__h1,
+  .containerPrincipal__logoCentral {
+    padding-left: 10%;
+>>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
   .containerPrincipal__bannerPrincipal{
@@ -251,12 +257,11 @@
   
   /* box com grid*/
   .boxCasas {
-    display: grid;
-    grid-template-columns: 594px 594px;
-    grid-template-rows: repeat(2, 275px);
+    display: flex;
     text-align: center;
     justify-content: center;
     gap: 10px;
+<<<<<<< HEAD:assets/css/responsividadeHome.css
     grid-template-areas:
       "grifinoria sonserina "
       "lufalufa corvinal";
@@ -272,12 +277,19 @@
     "filmes"
     "livros"
     "personagens";
+=======
+  }
+
+  .boxCasas__img{
+    justify-content: center;
+>>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
   .boxCasas-imgbox{
     width: 100%;
   }
 
+<<<<<<< HEAD:assets/css/responsividadeHome.css
   .subCategorias {
     display: flex;
     left: -368px;
@@ -287,6 +299,22 @@
     width: 1600px;
     justify-content: center;
     top: 3885px;
+=======
+  .subCategorias{
+    display: grid;
+    position: absolute;
+    left: 7%;
+  }
+
+  }
+  .subCategorias__comunidade,
+  .subCategorias__lojas,
+  .subCategorias__restaurantes {
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+>>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
 }
