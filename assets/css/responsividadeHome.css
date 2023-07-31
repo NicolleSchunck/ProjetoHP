@@ -209,13 +209,6 @@
 
 }
 
-<<<<<<< HEAD:assets/css/responsividadeHome.css
-/*--- Para telas Grandes--*/
-@media screen and (min-width: 1500px) {
-
-  .body {
-    justify-content: center;
-=======
 @media screen and (min-width: 1600px) {
   .container-fluid{
     justify-content: center !important;
@@ -226,7 +219,6 @@
   .containerPrincipal__h1,
   .containerPrincipal__logoCentral {
     padding-left: 10%;
->>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
   .containerPrincipal__bannerPrincipal{
@@ -261,45 +253,16 @@
     text-align: center;
     justify-content: center;
     gap: 10px;
-<<<<<<< HEAD:assets/css/responsividadeHome.css
-    grid-template-areas:
-      "grifinoria sonserina "
-      "lufalufa corvinal";
-  }
-
-  .categorias{
-    padding-left: 0;
-    display: grid;
-    justify-content: space-between;
-    gap: 10px;
-    grid-template-columns: 1229px;
-    grid-template-areas:
-    "filmes"
-    "livros"
-    "personagens";
-=======
   }
 
   .boxCasas__img{
     justify-content: center;
->>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
   .boxCasas-imgbox{
     width: 100%;
   }
 
-<<<<<<< HEAD:assets/css/responsividadeHome.css
-  .subCategorias {
-    display: flex;
-    left: -368px;
-  }
-
-  .navBarFooter{
-    width: 1600px;
-    justify-content: center;
-    top: 3885px;
-=======
   .subCategorias{
     display: grid;
     position: absolute;
@@ -314,7 +277,6 @@
     position: relative;
     top: 20px;
     justify-content: center;
->>>>>>> 2a94212 (ajustes):assets/css/responsividade.css
   }
 
 }

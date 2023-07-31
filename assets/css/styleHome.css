@@ -124,15 +124,9 @@ header nav {
 }
 
 .containerPrincipal__bannerPrincipal {
-<<<<<<< HEAD
-  /*position: absolute;*/
-  width: 100%;
-  justify-content: space-between;
-=======
   width: auto;
   flex-direction: row;
   justify-content: center;
->>>>>>> 2a94212 (ajustes)
 }
 
 .containerPrincipal__arabescoDireito {
@@ -194,12 +188,8 @@ header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  padding-left: 4%;
-=======
   /*padding-left: 100px;*/
   justify-content: center;
->>>>>>> 2a94212 (ajustes)
   gap: 20px;
 }
 
@@ -617,25 +607,13 @@ header nav {
 
 .subCategorias {
   display: grid;
-<<<<<<< HEAD
-  grid-template-areas:
-    "restaurantes lojas comunidade";
-  grid-template-columns: auto;
-  justify-content: center;
-  width: 20%;
-=======
   width: 700px;
->>>>>>> 2a94212 (ajustes)
   height: 460px;
   color: white;
   font-size: 25px;
   font-family: Wizard World;
   letter-spacing: 3px;
-<<<<<<< HEAD
-  top: -350px;
-  position: relative;
-=======
-  top: 3340px;
+  top: 3285px;
   position: absolute;
 }
 .subCategorias div{
@@ -644,7 +622,6 @@ header nav {
     "restaurantes lojas comunidade";
   grid-template-columns: auto;
   justify-content: center;
->>>>>>> 2a94212 (ajustes)
 }
 
 .subCategorias a{
