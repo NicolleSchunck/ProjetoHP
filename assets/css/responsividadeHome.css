@@ -150,16 +150,10 @@
     left: 10px;
     top: 230px;
   }
-
- 
-
   .boxCasas__img,
   .subCategorias,
   .navBarFooter__nav{
     display: none;
-  }
-
-  .casasHogwarts{
   }
 
 }
