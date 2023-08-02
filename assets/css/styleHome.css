@@ -692,6 +692,7 @@
 
 .social-container{
   display: flex;
+  justify-content: flex-end;
 }
 
 .social-icons {
